@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-07T20:50:46 IST" name="Default suite" finished-at="2025-02-07T20:50:58 IST" duration-ms="11944">
+    <groups>
+    </groups>
+    <test started-at="2025-02-07T20:50:46 IST" name="Default test" finished-at="2025-02-07T20:50:58 IST" duration-ms="11944">
+      <class name="Testcase.Testcase">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:Testcase.Testcase@6743e411]" started-at="2025-02-07T20:50:46 IST" name="browserLaunch" finished-at="2025-02-07T20:50:50 IST" duration-ms="3136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testcase.Testcase@6743e411]" started-at="2025-02-07T20:50:50 IST" name="login" data-provider="DataPro" finished-at="2025-02-07T20:50:58 IST" duration-ms="7175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:Testcase.Testcase@6743e411]" started-at="2025-02-07T20:50:58 IST" name="logout" finished-at="2025-02-07T20:50:58 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Testcase.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
