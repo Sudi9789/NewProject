@@ -15,7 +15,7 @@ WebDriver currentdriver;
 	}
 	
 	
-		@FindBy(id="username") WebElement Username;
+		@FindBy(id="userame") WebElement Username;
 	
 		@FindBy(id="password") WebElement Password;		
 		@FindBy(id="submit") WebElement Submit;
